@@ -2,17 +2,17 @@
 
 ## Chapter 1: Environment Setup
 
-**Step 1: Download, install, and open the Arduino IDE.**
+### Step 1: Download, install, and open the Arduino IDE.
 
 - [https://www.arduino.cc/en/software#download](https://www.arduino.cc/en/software#download)
 
 
-**Step 2: Open the library manager so we can install libraries.**
+### Step 2: Open the library manager so we can install libraries.
 
 - Sketch > Include Library > Manage Libraries
 
 
-**Step 3: Install the following libraries.**
+### Step 3: Install the following libraries.
 
 - Arduboy by Ross O. Shoger
 - Arduboy 2 by Scott Allen
@@ -24,14 +24,14 @@
 - Arduboy-TinyFont by Boti Kis
 
 
-**Step 4: Plug your Arduboy in and target it.**
+### Step 4: Plug your Arduboy in and target it.
 
 - Substep 1: Tools > Board > Arduino AVR Boards > Arduino Leonardo
 - Substep 2: Tools > Port > *Com#/Filepath]*(Arduino Leonardo)
   - It is important to note that this may look different at home.
   - However, look for "Arduino Leonardo" and you will probably still get the right one.
 
-**Step 5: Test**
+### Step 5: Test
    
 - Substep 1: File > Examples > Arduboy 2 > Buttons
   - This will open a new window. 
@@ -53,12 +53,12 @@
   - Move the joystick left/right to move.
   - Press B to pause.
 
-### Congratulations! Your device works.
+#### Congratulations! Your device works.
 ---
 
 
 
-##Chapter 2: Creating our first game (Pong)
+## Chapter 2: Creating our first game (Pong)
 
 *Table of Contents:*
 
@@ -75,7 +75,7 @@
 
 ---
 
-###Step 1: Set up a new Sketch
+### Step 1: Set up a new Sketch
 
 - File > New
 - You do not need to type from the double slash on. These are comments.
@@ -105,7 +105,7 @@
 - Free download: https://code.visualstudio.com
 
 ---
-###Step 2: Create a title, game, win, and lose screen
+### Step 2: Create a title, game, win, and lose screen
 - Create and set a gamestate for the different potential screens.
 - Place the following above setup and below where arduboy is named.
 
@@ -160,7 +160,7 @@
 - This complete checkpoint can be found in the checkpoints folder (2).
 
 ---
-###Step 3: Create a bouncing ball
+### Step 3: Create a bouncing ball
         
 - Add a ball and have it bounce around the screen
 - Place the following just below where we declared the gamestate variable
@@ -221,7 +221,7 @@
 - This complete checkpoint can be found in the checkpoints folder (3)
 
 ---
-###Step 4: Create and control a paddle
+### Step 4: Create and control a paddle
 - Add a paddle and get it moving on the screen with your input
 - Place the following just below your ball variables:
 
@@ -258,7 +258,7 @@
 - This complete checkpoint can be found in the checkpoints folder (4)
 
 ---
-###Step 5: Create the computer's paddle
+### Step 5: Create the computer's paddle
        
 - It is not fair for only you to have a paddle, and makes for a boring game.
 - Add a paddle for your computer opponent.
@@ -294,7 +294,7 @@
 - This complete checkpoint can be found in the checkpoints folder (5)
 
 ---
-###Step 6: Collision
+### Step 6: Collision
 
 - Check to see if the ball is hitting the paddles instead of the edge of the screen with respect to left to right movement while leaving up and down the same.
 - Change the ballx collision on the left to check to see if it is hitting the paddle instead of an invisible wall.
@@ -321,7 +321,7 @@
 - This complete checkpoint can be found in the checkpoints folder (6)
 
 ---
-###Step 7: Adjusting the AI
+### Step 7: Adjusting the AI
 
 - The AI is currently impossible to beat (literally, it is perfect).
 - We need to change that.
@@ -348,7 +348,7 @@
 - This complete checkpoint can be found in the checkpoints folder (7)
                 
 ---
-###Step 8: Scoring
+### Step 8: Scoring
 
 - Time to add scoring. Add variables for player and computer scores
 
@@ -404,7 +404,7 @@
 - This complete checkpoint can be found in the checkpoints folder (8)
 
 ---
-###Step 9: Creating a new ball and resetting the game
+### Step 9: Creating a new ball and resetting the game
 
 - The reset function is the last thing we need to do before having a fully functional game and applying some polish.
 &nbsp;
@@ -432,7 +432,7 @@
 - This complete checkpoint can be found in the checkpoints folder (9)
 
 ---
-###Step 10: Final Quality Improvements
+### Step 10: Final Quality Improvements
 
 - Let's start by improving the win/lose screens
 - Add a counter variable to make text flash
