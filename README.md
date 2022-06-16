@@ -58,8 +58,7 @@
 
 
 
-Chapter 2: Creating our first game (Pong)
-=======================================================================
+##Chapter 2: Creating our first game (Pong)
 
 Table of Contents:
 Step 1: Set up a new Sketch
